@@ -128,6 +128,7 @@
     //右边超出处理
     if (offsetPoint.x>maxX) offsetPoint.x = maxX;
     [_titleScrollView setContentOffset:offsetPoint animated:YES];
+     _radioBtn = btn;
 }
 -(void)setupOneViewController:(NSInteger )i
 {
